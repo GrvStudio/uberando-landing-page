@@ -5,9 +5,11 @@ import Navbar from "components/organisms/navbar/nav";
 function App() {
   return (
     <main>
-      <Navbar />
-      <HeroSection />
-      <EmailForm />
+      <div className="h-screen w-screen">
+        <Navbar />
+        <HeroSection />
+        <EmailForm />
+      </div>
     </main>
   );
 }
