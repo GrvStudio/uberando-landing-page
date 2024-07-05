@@ -1,12 +1,19 @@
 import { defineConfig } from "vite";
 import { resolve } from "path";
 import react from "@vitejs/plugin-react";
+import svgrPlugin from 'vite-plugin-svgr';
 
 export default defineConfig((configEnv) => {
   const isDevelopment = configEnv.mode === "development";
 
   return {
-    plugins: [react()],
+    plugins: [
+      react(),
+      svgrPlugin({
+        svgrOptions: { exportType: "default", ref: true, svgo: false, titleProp: true },
+        include: "**/*.svg",
+      }),
+    ],
     server: {
       port: 3000,
     },
