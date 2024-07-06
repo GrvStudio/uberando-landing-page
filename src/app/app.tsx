@@ -2,6 +2,7 @@ import CompanyCard from "components/atoms/card/companyCard";
 import EmailForm from "components/atoms/emailForm/emailForm";
 import HeroSection from "components/atoms/hero/heroSection";
 import BusinessSolution from "components/molecules/businessSolution/businessSolution";
+import MeetTheTeam from "components/molecules/meetTheTeam/meetTheTeam";
 import OutProject from "components/molecules/ourProject/ourProject";
 import OurServices from "components/molecules/ourService/ourService";
 import Statistics from "components/molecules/statistics/statistics";
@@ -55,6 +56,7 @@ function App() {
         {/* Section Four */}
         <Statistics />
         <OutProject />
+        <MeetTheTeam />
       </div>
     </main>
   );

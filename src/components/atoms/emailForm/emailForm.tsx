@@ -6,7 +6,7 @@ const EmailForm = () => {
             <div className="container mx-auto px-4 text-center">
                 <Box className="mb-12" />
                 <div className="grid grid-cols-1 md:grid-cols-5 items-center gap-4">
-                    <p className="text-lg md:text-xl mb-8 col-span-2 md:col-span-2 hanken-grotesk-legendary-500">
+                    <p className="text-lg md:text-xl mb-8 col-span-2 text-left md:col-span-2 hanken-grotesk-legendary-500">
                         We specialize in custom software development, delivering tailored products, IT services, and comprehensive end-to-end solutions for our enterprise clients.
                     </p>
                     <div className="flex flex-col md:flex-row justify-center md:justify-end h-14 col-span-1 md:col-span-3">
