@@ -9,7 +9,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className="bg-gray-900 sm:mb-44">
+        <nav className="bg-gray-900">
             <div className="container mx-auto pt-6 px-4 py-2 flex flex-col md:flex-row justify-between items-center">
                 <Logo />
                 <div className="md:hidden">
@@ -19,7 +19,7 @@ export default function Navbar() {
                         </svg>
                     </button>
                 </div>
-                <div className={`flex-col md:flex-row md:flex ${isOpen ? 'flex' : 'hidden'} md:items-center space-y-4 md:space-y-0 md:space-x-4 bg-[#2C2C2C] px-6 md:px-14 py-4 md:py-8 sm:w-full  sm:rounded-full bg-opacity-80 mb-4 md:mb-0`}>
+                <div className={`flex-col md:flex-row md:flex ${isOpen ? 'flex' : 'hidden'} md:items-center space-y-4 md:space-y-0 md:space-x-4 bg-[#2C2C2C] px-6 md:px-14 py-4 md:py-8  sm:rounded-full bg-opacity-80 mb-4 md:mb-0`}>
                     <a href="#about" className="hanken-grotesk-legendary-400 bg-gradient-to-r inline from-[#2670F6] to-[#00F0C5] bg-clip-text text-transparent">About Us</a>
                     <a href="#services" className="text-white hanken-grotesk-legendary-400 hover:text-gray-400">Services</a>
                     <a href="#scope" className="text-white hanken-grotesk-legendary-400 hover:text-gray-400">Our Scope</a>
