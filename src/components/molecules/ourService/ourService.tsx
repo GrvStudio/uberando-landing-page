@@ -48,20 +48,20 @@ const OurServices: React.FC = () => {
     return (
         <div className="bg-gray-900 text-white py-12 px-6 md:px-12">
             <div className="container mx-auto text-center">
-                <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4">Our Services</h2>
-                <p className="text-lg mb-8 w-full md:w-8/12 mx-auto">
+                <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 hanken-grotesk-legendary-500">Our Services</h2>
+                <p className="text-lg mb-8 w-full md:w-8/12 mx-auto hanken-grotesk-legendary-500">
                     Uberando stands out as a leading IT system integration, professional services, and software development firm in Indonesia,
                     specializing in enterprise systems and solutions. As a privately owned company, Uberando excels in IT software design,
                     development, professional services, and hardware deployment and maintenance across various industry verticals.
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
                     {ourServiceList.map((service) => (
-                        <SectionDefault key={service.id}>
+                        <SectionDefault key={service.id} >
                             <div className="flex-grow">
                                 <div className="mb-12">
                                     <service.icon />
                                 </div>
-                                <h3 className="text-[28px] font-bold mb-4 text-left hanken-grotesk-legendary-500">{service.title}</h3>
+                                <h3 className="text-xl md:text-2xl lg:text-[28px] font-bold mb-4 text-left hanken-grotesk-legendary-500">{service.title}</h3>
                                 <p className='text-left hanken-grotesk-legendary-400'>{service.description}</p>
                             </div>
                         </SectionDefault>
