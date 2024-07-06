@@ -28,7 +28,7 @@ const BusinessSolution: React.FC<Props> = ({ companyList }) => {
                     {companyList.map((company) => (
                         <div key={company.id} className="w-full sm:w-1/2 md:w-1/3 p-2">
                             <div className="bg-gray-800 p-4 rounded-lg">
-                                <img src={company.image} alt="company" />
+                                <img className='rounded-lg' src={company.image} alt="company" />
                             </div>
                         </div>
                     ))}
