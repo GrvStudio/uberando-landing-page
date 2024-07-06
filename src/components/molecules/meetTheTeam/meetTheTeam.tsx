@@ -52,17 +52,19 @@ const MeetTheTeam: React.FC = () => {
                 Meet The Team
             </h2>
             <Slider {...settings}>
-                {teamMembers.map((member) => (
-                    <div key={member.id} className="p-4">
-                        <div className="flex flex-col items-center">
-                            <div className="mb-4">
-                                <img className="rounded-full w-32 h-32 md:w-48 md:h-48 lg:w-56 lg:h-56" src={member.img} alt={member.name} />
+                {React.Children.toArray(
+                    teamMembers.map((member) => (
+                        <div key={member.id} className="p-4">
+                            <div className="flex flex-col items-center">
+                                <div className="mb-4">
+                                    <img className="rounded-full w-32 h-32 md:w-48 md:h-48 lg:w-56 lg:h-56" src={member.img} alt={member.name} />
+                                </div>
+                                <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 truncate-multiline">{member.name}</h3>
+                                <p className="hanken-grotesk-legendary-400 bg-gradient-to-r inline from-[#2670F6] to-[#00F0C5] bg-clip-text text-transparent text-sm md:text-base lg:text-lg">{member.position}</p>
                             </div>
-                            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-2 truncate-multiline">{member.name}</h3>
-                            <p className="hanken-grotesk-legendary-400 bg-gradient-to-r inline from-[#2670F6] to-[#00F0C5] bg-clip-text text-transparent text-sm md:text-base lg:text-lg">{member.position}</p>
                         </div>
-                    </div>
-                ))}
+                    ))
+                )}
             </Slider>
         </div>
     );
