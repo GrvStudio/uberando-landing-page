@@ -16,17 +16,17 @@ const BusinessSolution: React.FC<Props> = ({ companyList }) => {
         <section className="bg-gray-900 text-white py-6 pt-14">
             <div className="container mx-auto px-4 flex flex-wrap items-start">
                 <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
-                    <h2 className="text-[67px] font-bold mb-4 hanken-grotesk-legendary-500">Powerful Solution for Your Business</h2>
-                    <p className="mb-4 hanken-grotesk-legendary-400 text-[20px]">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[67px] font-bold mb-4 hanken-grotesk-legendary-500">Powerful Solution for Your Business</h2>
+                    <p className="mb-4 hanken-grotesk-legendary-400 text-base sm:text-lg md:text-xl lg:text-[20px]">
                         <b>CV. Uberando</b>, based in Bandung, West Java, Indonesia, specializes in comprehensive software development and engineering services, offering effective near-shore management solutions.
                     </p>
-                    <p className='hanken-grotesk-legendary-400 text-[20px]'>
+                    <p className='hanken-grotesk-legendary-400 text-base sm:text-lg md:text-xl lg:text-[20px]'>
                         With over 12 years of IT experience, we excel in optimizing organizational processes across banking, financial, and trade sectors. Our team is committed to delivering large-scale, integrated solutions, ensuring our clients thrive in today's dynamic business environment with confidence and innovation.
                     </p>
                 </div>
                 <div className="w-full relative lg:w-1/2 flex flex-wrap justify-center items-center">
                     {companyList.map((company) => (
-                        <div key={company.id} className="w-1/2 sm:w-1/3 p-2">
+                        <div key={company.id} className="w-full sm:w-1/2 md:w-1/3 p-2">
                             <div className="bg-gray-800 p-4 rounded-lg">
                                 <img src={company.image} alt="company" />
                             </div>
