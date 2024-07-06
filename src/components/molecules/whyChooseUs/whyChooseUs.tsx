@@ -4,7 +4,7 @@ const WhyChooseUs: React.FC = () => {
     return (
         <div className="bg-gray-900 text-white py-12 px-6 md:px-12">
             <div className="container mx-auto">
-                <h2 className="text-4xl font-bold mb-4">Why Choose Us?</h2>
+                <h2 className="text-4xl font-bold mb-4 hanken-grotesk-legendary-500 ">Why Choose Us?</h2>
                 <p className="text-lg mb-8">
                     Choose Uberando for the best IT solutions, guaranteed security, seamless communication,
                     maximum investment value, and a team of experts ready to support your business success.
