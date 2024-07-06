@@ -2,6 +2,7 @@ import CompanyCard from "components/atoms/card/companyCard";
 import EmailForm from "components/atoms/emailForm/emailForm";
 import HeroSection from "components/atoms/hero/heroSection";
 import BusinessSolution from "components/molecules/businessSolution/businessSolution";
+import OurServices from "components/molecules/ourService/ourService";
 import VisionMission from "components/molecules/visionMission/visionMission";
 import WhyChooseUs from "components/molecules/whyChooseUs/whyChooseUs";
 import Navbar from "components/organisms/navbar/nav";
@@ -47,6 +48,7 @@ function App() {
 
         {/* Section Three */}
         <WhyChooseUs />
+        <OurServices />
       </div>
     </main>
   );
