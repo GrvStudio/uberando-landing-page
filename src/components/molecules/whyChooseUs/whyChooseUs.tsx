@@ -1,3 +1,5 @@
+import Section from 'components/atoms/section/section';
+import SectionItem from 'components/atoms/section/sectionItem';
 import React from 'react';
 
 const WhyChooseUs: React.FC = () => {
@@ -10,41 +12,26 @@ const WhyChooseUs: React.FC = () => {
                     maximum investment value, and a team of experts ready to support your business success.
                 </p>
                 <div className="flex flex-col md:flex-row md:space-x-12 items-center">
-                    <div className="flex-1 mb-8 md:mb-0 border flex items-center justify-center p-5 rounded-lg border-[#EFEFEF] border-opacity-30">
-                        <div className='bg-[#2c2c2c] rounded-lg p-5'>
-                            <h3 className="text-2xl font-bold mb-4 hanken-grotesk-legendary-500">Our Strengths:</h3>
-                            <ul className="list-decimal list-inside space-y-2 hanken-grotesk-legendary-400">
-                                <li>Focused Expertise: Deep IT knowledge for targeted solutions.</li>
-                                <li>Maximum ROI: Innovative solutions for real business impact.</li>
-                                <li>Rapid Response: Swift and efficient problem-solving.</li>
-                                <li>Results-Driven: Dedicated team committed to achieving goals.</li>
-                                <li>Creative Thinking: Unique and innovative solutions to your challenges.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="flex-1 mb-8 md:mb-0 border flex items-center justify-center p-5 rounded-lg border-[#EFEFEF] border-opacity-30">
-                        <div className='bg-[#2c2c2c] rounded-lg p-5'>
-                            <h3 className="text-2xl font-bold mb-4">Why Choose Us?</h3>
-                            <ul className="list-decimal list-inside space-y-2">
-                                <li>Expert IT Talent: Our team of skilled professionals is ready to tackle your toughest tech challenges.</li>
-                                <li>Cutting-Edge Technology: We utilize the latest tools and infrastructure for top performance.</li>
-                                <li>Proven Processes: Our established workflow ensures efficient project delivery.</li>
-                                <li>Fast Turnaround: We'll get your solutions up and running quickly.</li>
-                                <li>Continuous Growth: We're committed to constant improvement and exceeding expectations.</li>
-                                <li>Access to Top Talent: Our prime location gives us access to the best tech minds in the industry.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="flex-1 border flex items-center justify-center p-5 rounded-lg border-[#EFEFEF] border-opacity-30">
-                        <div className='bg-[#2c2c2c] rounded-lg p-5'>
-                            <h3 className="text-2xl font-bold mb-4">Our Expertise:</h3>
-                            <p className="text-lg mb-4">We specialize in a wide range of technologies to meet your diverse business needs:</p>
-                            <ul className="list-decimal list-inside space-y-2">
-                                <li>Languages: C#, ASP.NET, VB.NET, PHP, Java, VB6, Python, JavaScript, TypeScript, Ruby</li>
-                                <li>Databases: MYSQL, SQL Server 2007, Oracle, SQLite, PostgreSQL, MongoDB</li>
-                            </ul>
-                        </div>
-                    </div>
+                    <Section title="Our Strengths:" className="hanken-grotesk-legendary-500">
+                        <SectionItem>Focused Expertise: Deep IT knowledge for targeted solutions.</SectionItem>
+                        <SectionItem>Maximum ROI: Innovative solutions for real business impact.</SectionItem>
+                        <SectionItem>Rapid Response: Swift and efficient problem-solving.</SectionItem>
+                        <SectionItem>Results-Driven: Dedicated team committed to achieving goals.</SectionItem>
+                        <SectionItem>Creative Thinking: Unique and innovative solutions to your challenges.</SectionItem>
+                    </Section>
+                    <Section title="Why Choose Us?">
+                        <SectionItem>Expert IT Talent: Our team of skilled professionals is ready to tackle your toughest tech challenges.</SectionItem>
+                        <SectionItem>Cutting-Edge Technology: We utilize the latest tools and infrastructure for top performance.</SectionItem>
+                        <SectionItem>Proven Processes: Our established workflow ensures efficient project delivery.</SectionItem>
+                        <SectionItem>Fast Turnaround: We'll get your solutions up and running quickly.</SectionItem>
+                        <SectionItem>Continuous Growth: We're committed to constant improvement and exceeding expectations.</SectionItem>
+                        <SectionItem>Access to Top Talent: Our prime location gives us access to the best tech minds in the industry.</SectionItem>
+                    </Section>
+                    <Section title="Our Expertise:">
+                        <p className="text-lg mb-4">We specialize in a wide range of technologies to meet your diverse business needs:</p>
+                        <SectionItem>Languages: C#, ASP.NET, VB.NET, PHP, Java, VB6, Python, JavaScript, TypeScript, Ruby</SectionItem>
+                        <SectionItem>Databases: MYSQL, SQL Server 2007, Oracle, SQLite, PostgreSQL, MongoDB</SectionItem>
+                    </Section>
                 </div>
             </div>
         </div>
