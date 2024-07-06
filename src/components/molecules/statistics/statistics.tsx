@@ -4,7 +4,7 @@ const Statistics = () => {
             <div className="container mx-auto">
                 <div className="bg-[#2c2c2c] text-white py-12 px-6 md:px-12 rounded-lg">
                     <div className="container mx-auto text-center">
-                        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 w-8/12 mx-auto hanken-grotesk-legendary-500">
+                        <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-8 w-full md:w-8/12 mx-auto hanken-grotesk-legendary-500">
                             We are a company that specializes in creating a solution for your business problems quickly
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
