@@ -3,6 +3,7 @@ import EmailForm from "components/atoms/emailForm/emailForm";
 import HeroSection from "components/atoms/hero/heroSection";
 import BusinessSolution from "components/molecules/businessSolution/businessSolution";
 import VisionMission from "components/molecules/visionMission/visionMission";
+import WhyChooseUs from "components/molecules/whyChooseUs/whyChooseUs";
 import Navbar from "components/organisms/navbar/nav";
 
 const companyList = [
@@ -43,6 +44,9 @@ function App() {
           companyList={companyList}
         />
         <VisionMission />
+
+        {/* Section Three */}
+        <WhyChooseUs />
       </div>
     </main>
   );
