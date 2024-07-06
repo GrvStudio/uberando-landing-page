@@ -52,8 +52,8 @@ const MeetTheTeam: React.FC = () => {
                 Meet The Team
             </h2>
             <Slider {...settings}>
-                {React.Children.toArray(
-                    teamMembers.map((member) => (
+                <div>
+                    {teamMembers.map((member) => (
                         <div key={member.id} className="p-4">
                             <div className="flex flex-col items-center">
                                 <div className="mb-4">
@@ -63,8 +63,8 @@ const MeetTheTeam: React.FC = () => {
                                 <p className="hanken-grotesk-legendary-400 bg-gradient-to-r inline from-[#2670F6] to-[#00F0C5] bg-clip-text text-transparent text-sm md:text-base lg:text-lg">{member.position}</p>
                             </div>
                         </div>
-                    ))
-                )}
+                    ))}
+                </div>
             </Slider>
         </div>
     );
