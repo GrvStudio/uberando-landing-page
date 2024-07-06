@@ -1,7 +1,31 @@
 import CompanyCard from "components/atoms/card/companyCard";
 import EmailForm from "components/atoms/emailForm/emailForm";
 import HeroSection from "components/atoms/hero/heroSection";
+import BusinessSolution from "components/molecules/businessSolution/businessSolution";
 import Navbar from "components/organisms/navbar/nav";
+
+const companyList = [
+  {
+    id: 1,
+    image: 'https://via.placeholder.com/250'
+  },
+  {
+    id: 2,
+    image: 'https://via.placeholder.com/250'
+  },
+  {
+    id: 3,
+    image: 'https://via.placeholder.com/250'
+  },
+  {
+    id: 4,
+    image: 'https://via.placeholder.com/250'
+  },
+  {
+    id: 5,
+    image: 'https://via.placeholder.com/250'
+  },
+]
 
 function App() {
   return (
@@ -14,6 +38,9 @@ function App() {
 
         {/* Section Two */}
         <CompanyCard />
+        <BusinessSolution
+          companyList={companyList}
+        />
       </div>
     </main>
   );
