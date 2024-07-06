@@ -2,6 +2,7 @@ import CompanyCard from "components/atoms/card/companyCard";
 import EmailForm from "components/atoms/emailForm/emailForm";
 import HeroSection from "components/atoms/hero/heroSection";
 import BusinessSolution from "components/molecules/businessSolution/businessSolution";
+import VisionMission from "components/molecules/visionMission/visionMission";
 import Navbar from "components/organisms/navbar/nav";
 
 const companyList = [
@@ -41,6 +42,7 @@ function App() {
         <BusinessSolution
           companyList={companyList}
         />
+        <VisionMission />
       </div>
     </main>
   );
