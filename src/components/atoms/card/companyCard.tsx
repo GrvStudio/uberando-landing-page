@@ -31,7 +31,7 @@ export default function CompanyCard() {
             <div className="container mx-auto flex flex-wrap items-center justify-between">
                 {
                     companyList.map((company) => (
-                        <div key={company.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 py-2 text-center">
+                        <div key={company.id} className="w-full sm:w-1/2 md:w-1/3 lg:w-1/5 px-4 py-2 text-center">
                             <company.image />
                         </div>
                     ))
