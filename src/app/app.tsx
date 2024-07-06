@@ -1,5 +1,6 @@
 import CompanyCard from "components/atoms/card/companyCard";
 import EmailForm from "components/atoms/emailForm/emailForm";
+import Footer from "components/atoms/footer/footer";
 import HeroSection from "components/atoms/hero/heroSection";
 import BusinessSolution from "components/molecules/businessSolution/businessSolution";
 import ContactUs from "components/molecules/contactUs/contactUs";
@@ -61,6 +62,7 @@ function App() {
 
         {/* Section Five */}
         <ContactUs />
+        <Footer />
       </div>
     </main>
   );
