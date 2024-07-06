@@ -13,7 +13,7 @@ export default function HeroSection() {
                             <VectorIcon />
                         </div>
                     </div>
-                    <div className="mb-6 md:mb-11 ml-0 md:ml-36">
+                    <div className="mb-6 md:mb-11 ml-0 md:ml-36 w-full">
                         <span className="bg-gradient-to-r inline from-[#2670F6] to-[#00F0C5] bg-clip-text text-transparent text-right hanken-grotesk-legendary-900 text-[48px] md:text-[133px]">Ideas Inspiring</span>
                     </div>
                     <span className="text-white hanken-grotesk-legendary-900 text-[48px] md:text-[133px]">Innovation.</span>
