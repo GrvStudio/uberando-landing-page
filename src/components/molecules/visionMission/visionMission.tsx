@@ -6,7 +6,7 @@ const VisionMission: React.FC = () => {
             <div className="flex flex-col md:flex-row md:space-x-12 container mx-auto">
                 <div className="flex-1 mb-8 md:mb-0">
                     <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 hanken-grotesk-legendary-500">Vision</h2>
-                    <p className="hanken-grotesk-legendary-400 text-sm sm:text-base md:text-lg lg:text-xl">
+                    <p className="hanken-grotesk-legendary-400 text-sm sm:text-base md:text-base lg:text-base">
                         Uberando is a leading IT company for Consulting Services and Deployment
                         of best of breed Business Solutions to top tier domestic and international
                         customers.
@@ -14,7 +14,7 @@ const VisionMission: React.FC = () => {
                 </div>
                 <div className="flex-1">
                     <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 hanken-grotesk-legendary-500">Mission</h2>
-                    <p className="hanken-grotesk-legendary-400 text-sm sm:text-base md:text-lg lg:text-xl mb-6">
+                    <p className="hanken-grotesk-legendary-400 text-sm sm:text-base md:text-base lg:text-base mb-6">
                         Uberando's mission is to empower businesses with cutting-edge technology
                         solutions that drive growth and efficiency. We deliver value through:
                     </p>
